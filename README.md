@@ -41,8 +41,9 @@ To install teamspeak3 using salt and bash script you must go to /srv/salt/ and d
 
 And 
    
-    sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/run.sh
+    sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/saltrun.sh
     
+saltrun.sh is slightly edited from run.sh, that it does automatically add user and configures it.
 Finally run the module:
    
     sudo salt 'slave' TS3_salt_module state.apply
