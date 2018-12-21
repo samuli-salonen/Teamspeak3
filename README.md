@@ -7,7 +7,7 @@ This is fast shell script to install teamspeak 3 server to your ubuntu server di
 
     sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/run.sh
     
-    sudo bash run.sh (in the directory where the shell script locates)
+    sudo bash run.sh
  
 Add user details when asked during installation.
 
