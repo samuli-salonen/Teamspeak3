@@ -3,4 +3,4 @@
     - name: run.sh
     - source: salt://run.sh
     - creates:
-- /etc/ts3_done.log
+      - /etc/teamspeak/ts3_done.log
