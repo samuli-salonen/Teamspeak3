@@ -26,9 +26,7 @@ sudo ufw allow 3033/tcp
 sleep 5s
 sudo ufw enable
 sleep 5s
-cd /usr/local/teamspeak/
-sleep 2s
-sudo echo ''|sudo tee /usr/local/.ts3server_license_accepted
+sudo echo ''|sudo tee /usr/local/teamspeak/.ts3server_license_accepted
 sleep 5s
 sudo service teamspeak start
 sleep 2s
