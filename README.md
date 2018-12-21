@@ -14,7 +14,7 @@ https://github.com/samuli-salonen/Teamspeak3/blob/master/saltrun.sh
 
 (teamspeak 3.5.1 server files: https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_linux_amd64-3.5.1.tar.bz2)
 
-You only need to add 2 commands below!
+You only need to do 2 commands below! <---------------------------------------------------
 
     sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/run.sh
     
@@ -25,9 +25,10 @@ You have to add user details when asked during installation, but you can just le
 ![Like here](https://github.com/samuli-salonen/Teamspeak3/blob/master/ts3-user.PNG)
 
 Wait for the rest to install.
+
 Done!
 
-You can do:
+Now you can do:
      
      sudo service teamspeak status
 
