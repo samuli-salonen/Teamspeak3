@@ -1,7 +1,6 @@
-# Teamspeak3 fast installation
-Installs teamspeak 3 server (tested on ubuntu 18.04.01 server)
-
-This is fast shell script to install teamspeak 3 server to your ubuntu server distro.
+# Teamspeak3 bash script installation
+Installs teamspeak 3 server by running bash script (tested on ubuntu 18.04.01 server using "default" GNU bash)
+Note: I will update the script as the server files get updated.
 
 (teamspeak 3.5.1 server files: https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_linux_amd64-3.5.1.tar.bz2)
 
