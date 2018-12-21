@@ -38,10 +38,10 @@ teamspeak install , 18.04.1 ts3 server , ts3 config , teamspeak 3 configuration
 
 
 
-# Teamspeak3 salt module
+# Teamspeak3 salt module istallation
 
 
-To install teamspeak3 using salt you must go to /srv/salt/ and do these commands:
+To install teamspeak3 using salt and bash script you must go to /srv/salt/ and do these commands:
 
     sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/TS3_salt_module.sls
 
@@ -52,4 +52,13 @@ And
 Finally run the module:
    
     sudo salt 'slave' TS3_salt_module state.apply
+    
+Or mention TS3_salt_module in top.sls and run it by:
+    
+    sudo salt 'slave' state.highstate
+    
+And wait 5 minutes.
+
+Ps. top.sls is more reliable.
+    
     
