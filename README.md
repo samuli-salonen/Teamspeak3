@@ -2,6 +2,16 @@
 This github repository is created to Install teamspeak 3 server by running bash script (tested on ubuntu 18.04.01 server using "default" GNU bash)
 Note: I will update the script as the server files get updated. (Currently 3.5.1 TS3 version)
 
+
+My code is simple and easy to understand and it also works! 
+
+You can see my bash scripts here:
+
+https://github.com/samuli-salonen/Teamspeak3/blob/master/run.sh
+
+https://github.com/samuli-salonen/Teamspeak3/blob/master/saltrun.sh
+(You can also run this without salt!)
+
 (teamspeak 3.5.1 server files: https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_linux_amd64-3.5.1.tar.bz2)
 
 You only need to add 2 commands below!
