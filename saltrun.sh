@@ -5,7 +5,7 @@ sudo apt-get update #updates
 sleep 50s
 sudo apt-get -y upgrade #upgrades
 sleep 120s
-sudo adduser --disabled-login teamspeak ",,," -y #new user for teamspeak files. Also for security.
+sudo adduser --disabled-login teamspeak ",,," #new user for teamspeak files. Also for security.
 sleep 5s
 sudo wget https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_linux_amd64-3.5.1.tar.bz2 #teamspeak 3 server files.
 sleep 15s
