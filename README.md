@@ -1,6 +1,6 @@
 # Teamspeak3 bash script installation
 This github repository is created to Install teamspeak 3 server by running bash script (tested on ubuntu 18.04.01 server using "default" GNU bash)
-Note: I will update the script as the server files get updated. (Currently 3.5.1)
+Note: I will update the script as the server files get updated. (Currently 3.5.1 TS3 version)
 
 (teamspeak 3.5.1 server files: https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_linux_amd64-3.5.1.tar.bz2)
 
@@ -11,6 +11,8 @@ You only need to add 2 commands below!
     sudo bash run.sh
  
 You have to add user details when asked during installation, but you can just leave details empty.
+
+
 
 Wait for the rest to install.
 Done!
@@ -30,7 +32,7 @@ https://www.vpsserver.com/community/tutorials/3916/how-to-setup-teamspeak-server
 
 
 
-# Teamspeak3 salt module istallation
+# Teamspeak3 salt module installation
 
 (tested on ubuntu 18.04.01 server using "default" GNU bash)
 To install teamspeak3 using salt and bash script you must go to /srv/salt/ and do these commands:
