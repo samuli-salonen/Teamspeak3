@@ -69,7 +69,7 @@ BUT you have to edit TS3_salt_module to run the module properly.
 
     
 If you do not want to replace yor top.sls you still have to mention TS3_salt_module in top.sls:
-(like so:  )
+(like so: https://github.com/samuli-salonen/Teamspeak3/blob/master/top.sls )
 
 So your /srv/salt/ directory should look like this:
 
