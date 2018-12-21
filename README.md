@@ -12,7 +12,7 @@ You only need to add 2 commands below!
  
 You have to add user details when asked during installation, but you can just leave details empty.
 
-
+![alt text](https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/blob/master/ts3-user.PNG)
 
 Wait for the rest to install.
 Done!
