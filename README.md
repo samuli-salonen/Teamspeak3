@@ -29,3 +29,6 @@ https://teamspeak.com/en/ (files)
 https://www.vpsserver.com/community/tutorials/3916/how-to-setup-teamspeak-server-on-linux/ (commands slightly updated)
 
 
+keywords:
+How to install ts3 server , teamspeak 3 , TS3 , 3.5.1 version , teamspeak installation , bash script install , ubuntu 
+teamspeak install , 18.04.1 ts3 server , ts3 config , teamspeak 3 configuration 
