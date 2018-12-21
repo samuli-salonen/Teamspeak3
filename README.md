@@ -22,5 +22,8 @@ You can do:
 To check your teamspeak3 server status and get admin token.
 
 
-source: https://teamspeak.com/en/
+sources: 
+https://teamspeak.com/en/ (files)
+https://www.vpsserver.com/community/tutorials/3916/how-to-setup-teamspeak-server-on-linux/ (commands slightly updated)
+
 
