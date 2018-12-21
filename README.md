@@ -32,3 +32,26 @@ https://www.vpsserver.com/community/tutorials/3916/how-to-setup-teamspeak-server
 keywords:
 How to install ts3 server , teamspeak 3 , TS3 , 3.5.1 version , teamspeak installation , bash script install , ubuntu 
 teamspeak install , 18.04.1 ts3 server , ts3 config , teamspeak 3 configuration 
+
+
+
+
+
+
+# Teamspeak3 salt module
+
+
+To install teamspeak3 using salt you must do these commands:
+
+    sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/TS3_salt_module.sls /srv/salt
+
+And 
+   
+    sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/run.sh /srv/salt
+    
+you can change /srv/salt to your salt repository, but you have to edit the code also.
+
+Finally run the module:
+   
+    sudo salt 'slave' TS3_salt_module state.apply
+    
