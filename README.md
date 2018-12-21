@@ -55,6 +55,12 @@ And
     
 saltrun.sh is slightly edited from run.sh, that it does automatically add user and configures it.
 
+You can also do clone my git to /srv/salt/:
+       
+    sudo git clone https://github.com/samuli-salonen/Teamspeak3.git
+
+BUT you have to edit TS3_salt_module to run the module properly.
+
 
 Finally run the module:
    
