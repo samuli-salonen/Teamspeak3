@@ -1,3 +1,4 @@
+printf "This will take 5 minutes!"
 sleep 5s
 sudo apt-get update
 sleep 50s
@@ -25,5 +26,10 @@ sudo ufw allow 3033/tcp
 sleep 5s
 sudo ufw enable
 sleep 5s
+cd /usr/local/teamspeak/
+sleep 2s
+sudo echo ''|sudo tee /usr/local/.ts3server_license_accepted
+sleep 5s
 sudo service teamspeak start
-sleep 10s
+sleep 2s
+echo "Server has been installed"
