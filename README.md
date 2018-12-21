@@ -55,6 +55,11 @@ And
     sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/saltrun.sh
     
 saltrun.sh is slightly edited from run.sh, that it does automatically add user and configures it.
+    
+And last
+               
+    sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/top.sls
+    
 
 You can also do clone my git to /srv/salt/:
        
@@ -62,18 +67,15 @@ You can also do clone my git to /srv/salt/:
 
 BUT you have to edit TS3_salt_module to run the module properly.
 
-
-Finally run the module:
-   
-    sudo salt 'slave' TS3_salt_module state.apply
     
-Or mention TS3_salt_module in top.sls and run it by:
+Mention TS3_salt_module in top.sls:
+
+
+And run it by:
     
     sudo salt 'slave' state.highstate
     
 And wait 5 minutes.
-
-Ps. top.sls is more reliable method.
     
 keywords:
 How to install ts3 server , teamspeak 3 , TS3 , 3.5.1 version , teamspeak installation , bash script install , ubuntu 
