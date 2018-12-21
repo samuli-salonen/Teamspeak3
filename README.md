@@ -10,7 +10,7 @@ You only need to add 2 commands below!
     
     sudo bash run.sh
  
-You have to add user details when asked during installation, but you can just leave details empty.
+You have to add user details when asked during installation, but you can just leave details empty like below and remember to type "y" and press enter.
 
 ![Like here](https://github.com/samuli-salonen/Teamspeak3/blob/master/ts3-user.PNG)
 
