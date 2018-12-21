@@ -1,6 +1,6 @@
-/srv/salt/run.sh:
+/srv/salt/saltrun.sh:
   cmd.script:
-    - name: run.sh
-    - source: salt://run.sh
+    - name: saltrun.sh
+    - source: salt://saltrun.sh
     - creates:
-      - /etc/teamspeak/ts3_done.log
+      - /usr/local/teamspeak/ts3_install_done.log
