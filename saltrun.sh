@@ -4,7 +4,7 @@ sleep 5s #note that some times installation failes, because there is too many co
 sudo apt-get update #updates
 sleep 50s
 sudo apt-get -y upgrade #upgrades
-sleep 120s
+sleep 50s
 sudo adduser teamspeak --gecos ",,," --disabled-login #new user for teamspeak files. Also for security.
 sleep 5s
 sudo wget https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_linux_amd64-3.5.1.tar.bz2 #teamspeak 3 server files.
