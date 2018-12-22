@@ -3,7 +3,7 @@ This github repository is created to Install teamspeak 3 server by running bash 
 Note: I will update the script as the server files get updated. (Currently 3.5.1 TS3 version)
 
 
-My code is simple and easy to understand and it also works! (because i'm noob starter on bash and salt scripts)
+My code is simple and easy to understand and modify, also it also works!
 
 You can see my bash scripts here:
 
