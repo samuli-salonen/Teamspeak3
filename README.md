@@ -80,7 +80,7 @@ So your /srv/salt/ directory should look like this:
 
 And run it by:
     
-    sudo salt 'slave' state.highstate
+    sudo salt 'SLAVE_NAME' state.highstate
     
 And wait 5 minutes.
     
