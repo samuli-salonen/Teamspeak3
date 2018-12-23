@@ -1,6 +1,6 @@
 #bin/bash teamspeak3 server installation script
-printf "This will take 5 minutes!"
-sleep 5s #note that some times installation failes, because there is too many commands driven at once, this is fixed by adding sleep command after update, upgrade and installation commands like sudo apt-get upgrade.
+echo -e "\E[1;33mTeamspeak 3 server is now installing, this will take 2-5 minutes. Please be patient."
+sleep 10s #note that some times installation failes, because there is too many commands driven at once, this is fixed by adding sleep command after update, upgrade and installation commands like sudo apt-get upgrade.
 sudo apt-get update #updates
 sleep 50s
 sudo apt-get -y upgrade #upgrades
@@ -31,4 +31,4 @@ sudo echo ''|sudo tee /usr/local/teamspeak/.ts3server_license_accepted #makes fi
 sleep 5s
 sudo service teamspeak start #starts the server
 sleep 2s
-echo "Server has been installed"
+echo -e "\E[1;33mTeamspeak 3 server has been installed! you can do: sudo service teamspeak status to see the admin token."
