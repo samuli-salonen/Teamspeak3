@@ -1,5 +1,5 @@
-# Teamspeak3 bash script installation
-This github repository is created to Install teamspeak 3 server by running bash script (tested on ubuntu 18.04.01 server using "default" GNU bash)
+# Teamspeak3 server bash script installation
+This github repository is created by Samuli Salonen and the purpose is to Install teamspeak 3 server by running bash script (tested on ubuntu 18.04.01 server using "default" GNU bash)
 Note: I will update the script as the server files get updated. (Currently 3.5.1 TS3 version)
 
 
@@ -43,9 +43,10 @@ https://www.vpsserver.com/community/tutorials/3916/how-to-setup-teamspeak-server
 
 
 
-# Teamspeak3 salt module installation
+# Teamspeak3 server salt module installation
 
 (tested on ubuntu 18.04.01 server using "default" GNU bash)
+Note: this is more bash script than salt!
 To install teamspeak3 using salt and bash script you must go to /srv/salt/ and do these commands:
 
     sudo wget https://raw.githubusercontent.com/samuli-salonen/Teamspeak3/master/TS3_salt_module.sls
@@ -68,7 +69,7 @@ You can also do clone my git to /srv/salt/:
 BUT you have to edit TS3_salt_module to run the module properly.
 
     
-If you do not want to replace yor top.sls you still have to mention TS3_salt_module in top.sls:
+If you do not want to replace your top.sls you still have to mention TS3_salt_module in top.sls:
 
 (like so: https://github.com/samuli-salonen/Teamspeak3/blob/master/top.sls )
 
