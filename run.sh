@@ -4,9 +4,9 @@ sleep 2s
 echo -e "\E[0m..."
 sleep 10s #note that some times installation failes, because there is too many commands driven at once, this is fixed by adding sleep command after update, upgrade and installation commands like sudo apt-get upgrade.
 sudo apt-get update #updates
-sleep 50s
+sleep 20s
 sudo apt-get -y upgrade #upgrades
-sleep 120s
+sleep 20s
 sudo adduser --disabled-login teamspeak #new user for teamspeak files. Also for security.
 sleep 5s
 sudo wget https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_linux_amd64-3.5.1.tar.bz2 #teamspeak 3 server files.
