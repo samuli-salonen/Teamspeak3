@@ -34,3 +34,5 @@ sleep 5s
 sudo service teamspeak start #starts the server
 sleep 2s
 echo -e "\E[1;33mTeamspeak 3 server has been installed! you can do: sudo service teamspeak status to see the admin token."
+sleep 2s
+echo -e "\E[0m..."
