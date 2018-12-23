@@ -1,5 +1,7 @@
 #bin/bash teamspeak3 server installation script
 echo -e "\E[1;33mTeamspeak 3 server is now installing, this will take 2-5 minutes. Please be patient."
+sleep 2s
+echo -e "\E[0m..."
 sleep 10s #note that some times installation failes, because there is too many commands driven at once, this is fixed by adding sleep command after update, upgrade and installation commands like sudo apt-get upgrade.
 sudo apt-get update #updates
 sleep 50s
