@@ -3,7 +3,7 @@ echo -e "\E[1;33mTeamspeak 3 server is now installing, this will take 2-5 minute
 sleep 2s
 echo -e "\E[0m..."
 sleep 5s
-sudo echo 'deb cdrom:[Debian GNU/Linux 9.6.0 _Stretch_ - Official amd64 DVD Binary-1 20181110-11:34]/ stretch contrib main\ndeb http://security.debian.org/debian-security stretch/updates main contrib\ndeb-src http://security.debian.org/debian-security stretch/updates main contrib\ndeb http://archive.ubuntu.com/ubuntu bionic main restricted\ndeb http://archive.ubuntu.com/ubuntu bionic-updates main restricted\ndeb http://archive.ubuntu.com/ubuntu bionic universe\ndeb http://archive.ubuntu.com/ubuntu bionic-updates universe\ndeb http://archive.ubuntu.com/ubuntu bionic multiverse\ndeb http://archive.ubuntu.com/ubuntu bionic-updates multiverse\ndeb http://archive.ubuntu.com/ubuntu bionic-backports main restricted universe multiverse\ndeb http://archive.ubuntu.com/ubuntu bionic-security main restricted\ndeb-src http://archive.ubuntu.com/ubuntu bionic-security main restricted\ndeb http://archive.ubuntu.com/ubuntu bionic-security universe\ndeb-src http://archive.ubuntu.com/ubuntu bionic-security universe\ndeb http://archive.ubuntu.com/ubuntu bionic-security multiverse\ndeb-src http://archive.ubuntu.com/ubuntu bionic-security multiverse'|sudo tee /etc/apt/sources.list #Warning!! this will replace your sources list code with these!
+sudo echo -e 'deb cdrom:[Debian GNU/Linux 9.6.0 _Stretch_ - Official amd64 DVD Binary-1 20181110-11:34]/ stretch contrib main\ndeb http://security.debian.org/debian-security stretch/updates main contrib\ndeb-src http://security.debian.org/debian-security stretch/updates main contrib\ndeb http://archive.ubuntu.com/ubuntu bionic main restricted\ndeb http://archive.ubuntu.com/ubuntu bionic-updates main restricted\ndeb http://archive.ubuntu.com/ubuntu bionic universe\ndeb http://archive.ubuntu.com/ubuntu bionic-updates universe\ndeb http://archive.ubuntu.com/ubuntu bionic multiverse\ndeb http://archive.ubuntu.com/ubuntu bionic-updates multiverse\ndeb http://archive.ubuntu.com/ubuntu bionic-backports main restricted universe multiverse\ndeb http://archive.ubuntu.com/ubuntu bionic-security main restricted\ndeb-src http://archive.ubuntu.com/ubuntu bionic-security main restricted\ndeb http://archive.ubuntu.com/ubuntu bionic-security universe\ndeb-src http://archive.ubuntu.com/ubuntu bionic-security universe\ndeb http://archive.ubuntu.com/ubuntu bionic-security multiverse\ndeb-src http://archive.ubuntu.com/ubuntu bionic-security multiverse'|sudo tee /etc/apt/sources.list #Warning!! this will replace your sources list code with these!
 sleep 5s #note that some times installation failes, because there is too many commands driven at once, this is fixed by adding sleep command after update, upgrade and installation commands like sudo apt-get upgrade.
 sudo apt-get update #updates
 sleep 20s
@@ -22,6 +22,8 @@ sleep 5s
 sudo ln -s /usr/local/teamspeak/ts3server_startscript.sh /etc/init.d/teamspeak #creates symlink
 sleep 10s
 sudo update-rc.d teamspeak defaults #updates services
+sleep 10s
+sudo apt-get install ufw -y
 sleep 10s
 sudo ufw allow 9987/udp #firewall rules to allow ts3
 sleep 5s
