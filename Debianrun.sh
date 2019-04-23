@@ -29,7 +29,7 @@ sudo ufw allow 9987/udp #firewall rules to allow ts3
 sleep 5s
 sudo ufw allow 10011/tcp #-''-
 sleep 5s
-sudo ufw allow 3033/tcp #-''-
+sudo ufw allow 30033/tcp #-''-
 sleep 5s
 sudo ufw enable #enables ubuntu firewall
 sleep 5s
