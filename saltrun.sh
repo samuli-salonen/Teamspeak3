@@ -9,7 +9,7 @@ sudo apt-get -y upgrade #upgrades
 sleep 20s
 sudo adduser teamspeak --gecos ",,," --disabled-login #new user for teamspeak files. Also for security.
 sleep 5s
-sudo wget https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_linux_amd64-3.5.1.tar.bz2 #teamspeak 3 server files.
+sudo wget https://files.teamspeak-services.com/releases/server/3.7.1/teamspeak3-server_linux_amd64-3.7.1.tar.bz2 #teamspeak 3 server files.
 sleep 15s
 tar -jxvf teamspeak3-server_linux_amd*.tar.bz2 #unzips teamspeak3 server
 sleep 20s
