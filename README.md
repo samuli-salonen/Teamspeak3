@@ -12,7 +12,7 @@ https://github.com/samuli-salonen/Teamspeak3/blob/master/run.sh
 https://github.com/samuli-salonen/Teamspeak3/blob/master/saltrun.sh
 (You can also run this without salt!)
 
-(teamspeak 3.5.1 server files: https://files.teamspeak-services.com/releases/server/3.5.1/teamspeak3-server_linux_amd64-3.5.1.tar.bz2)
+(teamspeak 3.7.1 server files: https://files.teamspeak-services.com/releases/server/3.7.1/teamspeak3-server_linux_amd64-3.7.1.tar.bz2)
 
 You only need to do 2 commands below! <---------------------------------------------------
 
