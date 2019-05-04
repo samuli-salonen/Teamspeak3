@@ -3,7 +3,7 @@ This github repository is created by Samuli Salonen and the purpose is to Instal
 Note: I will update the script as the server files get updated. (Currently 3.5.1 TS3 version)
 
 
-My code is simple and easy to understand and modify, also it also works!
+My code is simple and easy to understand and modify, also it works!
 
 You can see my bash scripts here:
 
