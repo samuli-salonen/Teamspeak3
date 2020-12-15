@@ -1,6 +1,11 @@
 # Teamspeak3 server bash script installation
+
+![logo](https://1000logos.net/wp-content/uploads/2020/08/TeamSpeak-Logo.png)
+
 This github repository is created by Samuli Salonen and the purpose is to Install teamspeak 3 server by running bash script (tested on ubuntu 18.04.01 server using "default" GNU bash)
-Note: I will update the script as the server files get updated. (Currently 3.5.1 TS3 version)
+Note: I will update the script as the server files get updated.
+
+NOTE! PLEASE READ SOURCE BEFORE INSTALLING AND RUNNING THIS .sh MODULE!!!
 
 
 My code is simple and easy to understand and modify, also it works!
